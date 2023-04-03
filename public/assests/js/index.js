@@ -162,7 +162,7 @@ const renderNoteList = async (notes) => {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
 
-    noteListItems.push(li);
+    noteListItems.push(li);yyyyy
   });
 
   if (window.location.pathname === '/notes') {
