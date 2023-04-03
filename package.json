@@ -1,11 +1,27 @@
 {
-  "name": "note-taker",
+  "name": "notetaker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application called Note Taker that can be used to write and save notes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://HAFSAABDI880/note-taker.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HAFSAABDI880/note-taker/issues"
+  },
+  "homepage": "https://github.com/HAFSAABDI880/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
